@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title> <!-- Para achar fontes em sites usa-se Fonts ninja em texto e para fontes dentro de imagens usa-se o what font is --> 
+    <style>
+        @font-face {
+            font-family: 'gotico';
+            src: url('fontes/Por\ Siempre\ Gótica.ttf') format(truetype); 
+            /* formatos: opentype (otf), truetype (ttf), embedded-opentype, svg, truetype-att (apple advanced typography) */
+            font-weight: normal;
+            font-style: normal;
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'gotico', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia perspiciatis aperiam inventore quos, nemo possimus repellat tempore tempora nostrum odio voluptatem nesciunt omnis excepturi recusandae magnam incidunt quod deserunt?</p>
+</body>
+</html>
